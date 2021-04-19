@@ -8,7 +8,7 @@ const multiplyVar = function multiply (numberOne, numberTwo) {
     console.log('2:', numberOne * numberTwo);
 }
 
-console.log(multiplyVar(5, 6));
+multiplyVar(5, 6);
 
 const multiplyArrow = (numberOne, numberTwo) => {
     const multiplication = numberOne * numberTwo;
